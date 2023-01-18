@@ -34,4 +34,4 @@ services:
     ports: 
       - '4566-4583:4566-4583'
     volumes:
-      - './volumes/s3-storage/.init:/docker-entrypoint-initaws.d'
+      - './internal/platform/awslibs/volumes/s3-storage/.init:/docker-entrypoint-initaws.d'
